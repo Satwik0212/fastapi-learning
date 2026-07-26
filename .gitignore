@@ -2,8 +2,7 @@
 venv/
 .venv/
 env/
-fastAPI/Lib/
-fastAPI/Scripts/
+fastAPI/
 # Ignore Python caches
 __pycache__/
 *.pyc
