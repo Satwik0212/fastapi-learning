@@ -1,0 +1,18 @@
+# Ignore virtual environments
+venv/
+.venv/
+env/
+fastAPI/Lib/
+fastAPI/Scripts/
+# Ignore Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables/secrets files (if you create them later)
+.env
