@@ -9,5 +9,6 @@
     "editor.inlineSuggest.triggerCommandOnProviderChange": false,
     "editor.screenReaderAnnounceInlineSuggestion": true,
     "editor.suggest.showInlineDetails": true,
-    "editor.inlineSuggest.experimental.showOnSuggestConflict": "always"
+    "editor.inlineSuggest.experimental.showOnSuggestConflict": "always",
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe"
 }
