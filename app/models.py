@@ -11,5 +11,9 @@ class Post(Base):
     published = sa.Column(sa.Boolean, server_default = 'True', nullable = False)
     created_at = sa.Column(sa.TIMESTAMP, server_default = sa.func.now(), nullable = False)
 
-
-# SQLALCHEMY ORM
+class User(Base):
+    __tablename__ = "users"
+    id = sa.Column(sa.Integer, primary_key = True, nullable = False)
+    email = sa.Column(sa.String, unique = True, nullable = False)
+    password = sa.Column(sa.String, nullable = False)
+    created_at = sa.Column(sa.TIMESTAMP, server_default = sa.func.now(), nullable = False)
